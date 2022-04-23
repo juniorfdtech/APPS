@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/JaviUp",
   "Sms": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/UrlSms",
@@ -106,26 +106,6 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO TLS",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO DIRECT",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br:80 HTTP/1.1\r\nHost: vivo360.vivo.com.br\r\n\r\n[split]PATCH / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\n\r\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "[app_host]",
-      "ProxyPort": "80",
-      "Info": "Direct"
     }
   ]
 }
