@@ -23,7 +23,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
+    },
     {
       "Name": "SERVIDOR ABSAM FLEXIVEL",
       "TYPE": "premium",
@@ -46,7 +46,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
     {
       "Name": "TIM",
       "FLAG": "tim",
