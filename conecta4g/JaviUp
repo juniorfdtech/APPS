@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/javi_up",
   "Sms": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/UrlSms",
@@ -19,7 +19,7 @@
       "FLAG": "us.png",
       "ServerIP": "ny.flexws.tk",
       "CheckUser": "http://ny.flexws.tk:5001/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "22",
       "SSLPort": "443",
       "USER": "javi",
       "PASS": "1234"
@@ -30,7 +30,7 @@
       "FLAG": "us.png",
       "ServerIP": "ny.plus-ssh.tk",
       "CheckUser": "http://ny.plus-ssh.tk:5001/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "22",
       "SSLPort": "443",
       "USER": "javi",
       "PASS": "1234"
@@ -84,7 +84,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "80",
       "Info": "Direct"
     },
     {
@@ -94,7 +94,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "80",
       "Info": "Direct"
     },
     {
@@ -124,7 +124,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "80",
       "Info": "Direct"
     },
   ]
