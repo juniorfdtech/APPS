@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "",
   "UrlUpdate": "https://juniorfdtech.github.io/APPS/conecta4g/UrlUpdate",
   "Sms": "https://juniorfdtech.github.io/APPS/conecta4g/UrlSms",
@@ -14,22 +14,11 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR ABSAM COMPLETO",
+      "Name": "SERVIDOR ABSAM",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "absam.twossh.tk",
       "CheckUser": "http://absam.twossh.tk:5001/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR ABSAM FLEXIVEL",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "absam.twossh.xyz",
-      "CheckUser": "http://absam.twossh.xyz:5001/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -56,6 +45,17 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
+,
+    {
+      "Name": "CLARO",
+      "FLAG": "claro",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
   ]
 }
