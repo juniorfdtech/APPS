@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "",
-  "UrlUpdate": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/JaviUp",
+  "UrlUpdate": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/javi_up",
   "Sms": "https://raw.githubusercontent.com/juniorfdtech/APPS/main/conecta4g/UrlSms",
   "EmailFeedback": "conecta4g@gmail.com",
   "UrlContato": "https://t.me/twossh",
@@ -39,7 +39,7 @@
   "Networks": [
     {
       "Name": "JAVI PROXY",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET / [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
       "SNI": "",
       "TlsIP": "",
@@ -49,7 +49,7 @@
     },
     {
       "Name": "JAVI PROXY 2",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET / [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
       "SNI": "",
       "TlsIP": "",
@@ -59,7 +59,7 @@
     },
     {
       "Name": "JAVI PROXY SPLIT",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET wss://coronavirusrd.gob.do:80 HTTP/1.1\r\nHost: coronavirusrd.gob.do\r\n\r\n[split]PATCH / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\n\r\n",
       "SNI": "",
       "TlsIP": "",
@@ -69,7 +69,7 @@
     },
     {
       "Name": "JAVI PROXY SPLIT 2",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET wss://coronavirusrd.gob.do:80 HTTP/1.1\r\nHost: coronavirusrd.gob.do\r\n\r\n[split]PATCH / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\n\r\n",
       "SNI": "",
       "TlsIP": "",
@@ -79,7 +79,7 @@
     },
     {
       "Name": "JAVI DIRECT",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET ws://coronavirusrd.gob.do HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "",
       "TlsIP": "",
@@ -89,7 +89,7 @@
     },
     {
       "Name": "JAVI DIRECT SPLIT",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET wss://coronavirusrd.gob.do:80 HTTP/1.1\r\nHost: coronavirusrd.gob.do\r\n\r\n[split]PATCH / HTTP/1.1\r\nHost: [app_host]\r\nUpgrade: websocket\r\n\r\n",
       "SNI": "",
       "TlsIP": "",
@@ -99,13 +99,33 @@
     },
     {
       "Name": "JAVI TLS",
-      "FLAG": "down",
+      "FLAG": "oi",
       "Payload": "GET wss://coronavirusrd.gob.do [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
       "SNI": "coronavirusrd.gob.do",
       "TlsIP": "104.21.10.213",
-      "ProxyIP": "104.21.10.213",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    }
+    },
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vivo360.vivo.com.br [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
+      "SNI": "vivo360.vivo.com.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO DIRECT",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vivo360.vivo.com.br [protocol]\nHost: [app_host]\nConnection: upgrade\r\nupgrade: ws\r\n\r\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Direct"
+    },
   ]
 }
