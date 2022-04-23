@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "",
   "UrlUpdate": "https://juniorfdtech.github.io/APPS/conecta4g/UrlUpdate",
   "Sms": "https://juniorfdtech.github.io/APPS/conecta4g/UrlSms",
@@ -46,7 +46,6 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-,
     {
       "Name": "CLARO",
       "FLAG": "claro",
@@ -56,6 +55,6 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+    }
   ]
 }
