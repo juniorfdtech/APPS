@@ -1,9 +1,9 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "https://juniorfdtech.github.io/APPS/conecta4g/UrlUpdate",
   "Sms": "https://juniorfdtech.github.io/APPS/conecta4g/UrlSms",
-  "EmailFeedback": "conecta4g@gmail.com",
+  "EmailFeedback": "twovps@gmail.com",
   "UrlContato": "https://t.me/twossh",
   "UrlTermos": "https://juniorfdtech.github.io/APPS/conecta4g/termos.html",
   "CheckUser": "true",
@@ -14,11 +14,11 @@
   ],
   "Servers": [
     {
-      "Name": "SERVER ABSAM",
+      "Name": "SERVER BR",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "absam.twossh.tk",
-      "CheckUser": "http://absam.twossh.tk:5001/checkUser",
+      "ServerIP": "br.twossh.xyz",
+      "CheckUser": "http://br.twossh.xyz:8888/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -29,12 +29,12 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / [protocol]\r\nHost:[app_host]\r\nUpgrade: websocket\r\n\r\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "vivo360.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET wss://vivo360.vivo.com.br [protocol]\r\nHost:[app_host]\r\nUpgrade: ws\r\n\r\n",
+      "SNI": "vivo360.vivo.com.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM",
