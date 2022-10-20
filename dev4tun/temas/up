@@ -1,0 +1,77 @@
+{
+  "status": 200, 
+  "data": [
+    {
+      "user_id": 27, 
+      "value": "#434343", 
+      "id": 2165, 
+      "name": "background_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#323232", 
+      "id": 39, 
+      "name": "card_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#ffffff", 
+      "id": 40, 
+      "name": "text_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#434343", 
+      "id": 41, 
+      "name": "button_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#ffffff", 
+      "id": 42, 
+      "name": "icon_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#434343", 
+      "id": 556, 
+      "name": "border_color"
+    },
+    {
+      "user_id": 27, 
+      "value": "https://t.me/twossh", 
+      "id": 2224, 
+      "name": "app_contact_link"
+    },
+    {
+      "user_id": 27, 
+      "value": "https://i.ibb.co/yXdXHzr/114-app-contact-icon-BC8997-F0-EC3436023130.png", 
+      "name": "app_contact_icon", 
+      "id": 2305
+    },
+    {
+      "user_id": 27, 
+      "value": "#323232", 
+      "id": 3134, 
+      "name": "app_dialog_config_background_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#434343", 
+      "id": 3135, 
+      "name": "app_config_item_background_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#323232", 
+      "id": 3136, 
+      "name": "app_dialog_success_background_color"
+    }, 
+    {
+      "user_id": 27, 
+      "value": "#323232", 
+      "id": 3137, 
+      "name": "app_dialog_error_background_color"
+    }
+  ]
+}
